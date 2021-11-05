@@ -4,8 +4,6 @@ import Nav from './Nav';
 import ItemPage from './ItemPage';
 import {items} from './static-data.js';
 
-
-
 class Card extends React.Component
 {
     constructor(props) {
@@ -31,9 +29,11 @@ class Card extends React.Component
                     </div>
                 </div>
             </div>
-            );
+        );
     };
 }
+
+
 /* Arrow function */
 const App = () => {
     return (
