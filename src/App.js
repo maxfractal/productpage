@@ -11,21 +11,29 @@ class Card extends React.Component
     }
     render() {
         return (
+            //TODO: Move container info to main content and then call card
+            //
             <div className="container py-5">
                 <div className="row justify-content-center">
 
                     <div className="col-12 col-lg-4">
-                        <div className="testBox">
+                        <div className="testBox card testBox-shadow mx-auto my-5">
                             Lorem Ipsum
 
                         </div>
-                        {/*<div className="card box-shadow mx-auto my-5" style="width: 18rem;">
-                            <div className="card-body">
-                                <h5 className="card-title">Product</h5>
-
-                                    <p className="card-text">Some quick example</p>
-                            </div>
-                        </div>*/}
+                        <img
+                            src="https://dummyimage.com/288x400/000/fff"
+                            className="card-img-top"
+                            alt="Placeholder Image"
+                        />
+                        <div className="card-body">
+                            <h5 className="card-title">Product</h5>
+                            <hr/>
+                            <p className="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
